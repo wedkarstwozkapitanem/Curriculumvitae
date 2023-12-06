@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color:wheat;
+    text-shadow: 0 0 1px white;
+    font-size: 28px;
+    word-wrap: break-word;
+    margin: 0;
+    top:0;
+    overflow-x: hidden;
+    text-shadow: 0 0 3px black;
+}
+
+
+.menu_boczne{
+    border-right: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    min-height: 95vh;
+    left: 0;
+    position: relative;
+    background: linear-gradient(45deg,black,blue);
+    min-height: 100%;
+}
+
+.selfie {
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px;
+}
+
+.selfie img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 4px silver;
+    border-radius: 50%;
+    border:8px groove green;
+}
+
+
+@media screen and (max-width: 888px) {
+    .menu_boczne {
+        border: none !important;
+    }
+    .selfie img {
+        width: 96%;
+        height: 400px;
+    } 
+    aside {
+        position: relative !important;
+        width: 98% !important;
+        float:none !important;
+    }
+    .dane ul {
+        font-size: 38px;
+        text-align: center !important;
+    }
+    .dane > ul div {
+        display: inline;
+        font-size: 28px;
+    }
+    .imie {
+        font-size: 48px !important;
+    }
+    .naglowek {
+        width: 100% !important;
+        left: 0 !important;
+    }
+    main {
+        left:0 !important;
+        width: 102vh !important;
+    }
+    #certfikaty img {
+        width: 100% !important;
+    }
+    #glowna_tresc{
+        width: 100%;
+        left:1% !important;
+    }
+}
+
+aside {
+    width: 28%;
+    float: left;
+    position: fixed;
+    left:0;
+    min-height: 100vh;
+    z-index: 12;
+    animation: pojawienie 1s ease;
+
+}
+
+@keyframes pojawienie {
+    from {
+        left:-500px;
+    }
+    to {
+        left:0;
+    }
+}
+main {
+    left:32% ;
+    position: relative;
+    width: 64%;
+}
+
+.naglowek {
+    background: linear-gradient(325deg,rgba(0, 255, 0, 0.778),rgb(0, 21, 251));
+    color:white;
+    font-size: 38px;
+    font-family: cursive;
+    border-radius: 28px;
+    margin-top: 28px;
+    box-shadow: 0 0 12px rgba(192, 192, 192, 0.826);
+    left:-8%;
+    position: relative;
+    width: 120%;
+    z-index: 8;
+    animation: pojawienie 4s ease;
+}
+
+.dane ul {
+    text-align: left;
+    padding: 3px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 8px;
+    margin-bottom:8px;
+}
+
+a {
+    text-decoration: none;
+    color:silver;
+}
+.dane > ul div {
+    color:rgb(0, 246, 0);
+}
+.dane {
+    animation: jasnosc 6s ease;
+}
+@keyframes jasnosc {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.tytul {
+    background:linear-gradient(45deg,blue,rgb(5, 255, 34));
+    width: 400px;
+    top:0;
+    position: relative;
+    padding: 10px;
+    box-shadow: 0 0 3px silver;
+    border-radius: 8px;
+    font-size: 40px;
+    text-shadow: 0 0 3px black;
+    
+}
+
+#glowna_tresc {
+    top:28px;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    left:4%;
+}
+
+#certfikaty {
+    position: relative;
+    margin-top: 28px;
+}
+
+#certfikaty img {
+    width: 80%;
+    height: 600px;
+    display: none;
+    border:8px groove rgb(252, 165, 3);
+    border-radius: 12px;
+}
+
+.animowanie_cert {
+    animation: cert 4s ease;
+}
+
+@keyframes cert {
+    0%,100% {
+        opacity: 0.1;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
+#glowna_tresc div {
+    margin-top:30px;
+}
+
+#certifikaty_male {
+    left: 20px;
+    position: relative;
+}
+#certifikaty_male img {
+    width: 68px;
+    height: 68px;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+li:hover > a {
+    text-decoration: underline;
+}
+
+progress {
+    background: rgba(255, 0, 0, 0);
+    color:green;
+}
+progress::-webkit-progress-bar {
+    background: blue;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 28px;
+  }
+
+  progress[value]::-webkit-progress-value {
+    background-image:
+         -webkit-linear-gradient(-45deg, 
+                                 transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                                 rgba(0,0, 0, .1) 66%, transparent 66%),
+         -webkit-linear-gradient(top, 
+                                 rgba(255, 255, 255, .25), 
+                                 rgba(0, 0, 0, .25)),
+         -webkit-linear-gradient(left, rgb(3, 192, 255), rgb(2, 245, 245));
+  
+      border-radius: 28px; 
+      background-size: 35px 20px, 100% 100%, 100% 100%;
+  }
