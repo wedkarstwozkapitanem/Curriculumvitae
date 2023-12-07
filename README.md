@@ -1,2 +1,2 @@
-# Curriculumvitae
-Moje umiętności
+# Curriculum vitae
+# https://wedkarstwozkapitanem.github.io/Curriculumvitae/
