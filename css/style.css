@@ -1,4 +1,4 @@
-@charset "UTF-8";
+it@charset "UTF-8";
 
 body {
     background-color: black;
@@ -69,7 +69,7 @@ body {
     }
     main {
         left:0 !important;
-        width: 100% !important;
+        width: 80% !important;
     }
     #certfikaty img {
         width: 100% !important;
