@@ -69,14 +69,20 @@ body {
     }
     main {
         left:0 !important;
-        width: 102vh !important;
+        width: 100% !important;
     }
     #certfikaty img {
-        width: 100% !important;
+        width: 95% !important;
     }
     #glowna_tresc{
         width: 100%;
         left:1% !important;
+    }
+    body {
+        width: 100% !important;
+    }
+    .tytul {
+        width:60% !important;
     }
 }
 
@@ -100,8 +106,7 @@ aside {
     }
 }
 main {
-    left:32%;
-background:black;
+    left:32% ;
     position: relative;
     width: 64%;
 }
@@ -188,7 +193,7 @@ a {
 }
 
 .animowanie_cert {
-    animation: cert 4s ease;
+    animation: cert 6s ease;
 }
 
 @keyframes cert {
