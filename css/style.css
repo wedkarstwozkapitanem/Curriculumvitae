@@ -100,7 +100,8 @@ aside {
     }
 }
 main {
-    left:32% ;
+    left:32%;
+background:black;
     position: relative;
     width: 64%;
 }
