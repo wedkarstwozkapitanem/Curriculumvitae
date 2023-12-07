@@ -83,7 +83,7 @@ body {
         width: 100% !important;
     }
     .tytul {
-        width:60% !important;
+        max-width:100% !important;
     }
 }
 
