@@ -69,7 +69,7 @@ body {
     }
     main {
         left:0 !important;
-        width: 102vh !important;
+        width: 100% !important;
     }
     #certfikaty img {
         width: 100% !important;
