@@ -28,6 +28,3 @@ certifikaty_male.forEach((e)=> {
     })
 })
 
-document.addEventListener('scroll',()=>{
-
-})
