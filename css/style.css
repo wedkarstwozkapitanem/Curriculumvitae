@@ -85,6 +85,9 @@ body {
     .tytul {
         max-width:100% !important;
     }
+    ul {
+        padding:0;
+    }
 }
 
 aside {
