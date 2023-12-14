@@ -127,9 +127,17 @@ main {
     position: relative;
     width: 120%;
     z-index: 8;
-    animation: pojawienie 4s ease;
+    animation: pojawienien 4s ease;
 }
 
+@keyframes pojawienien {
+    from {
+        left:-500px;
+    }
+    to {
+        left:-8%;
+    }
+}
 .dane ul {
     text-align: left;
     padding: 3px;
