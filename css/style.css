@@ -156,6 +156,9 @@ a {
 .dane > ul div {
     color:rgb(0, 246, 0);
 }
+.dane > ul div:hover {
+    text-decoration: underline;
+}
 .dane {
     animation: jasnosc 6s ease;
 }
