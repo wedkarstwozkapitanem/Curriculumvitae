@@ -225,7 +225,6 @@ a {
 }
 
 #certifikaty_male {
-    left: 20px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -238,6 +237,7 @@ a {
     width: 68px;
     height: 68px;
     cursor: pointer;
+    margin:3px;
 }
 
 a {
