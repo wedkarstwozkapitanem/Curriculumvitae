@@ -227,6 +227,12 @@ a {
 #certifikaty_male {
     left: 20px;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width:84%;
 }
 #certifikaty_male img {
     width: 68px;
