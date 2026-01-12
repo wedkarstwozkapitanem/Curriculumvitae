@@ -24,7 +24,7 @@ certifikaty_male.forEach((e)=> {
     licznik++;
     e.addEventListener('click',()=>{
         zmien_fotep(e.dataset.ktore);
-  //      clearInterval(zmiana);
+        clearInterval(zmiana);
     })
 })
 
