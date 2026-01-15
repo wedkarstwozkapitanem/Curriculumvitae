@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
-
 
 
 body {
@@ -41,6 +39,21 @@ body {
     border:8px groove green;
 }
 
+.dane {
+    font-size: clamp(10px, 1.5rem, 28px);
+}
+
+@media screen and (max-width: 1280px) {
+    .dane {
+        font-size:16px !important;
+    }
+}
+
+@media screen and (max-width: 914px) {
+    .dane {
+        font-size:12px !important;
+    }
+}
 
 @media screen and (max-width: 888px) {
     .menu_boczne {
@@ -319,8 +332,8 @@ progress::-webkit-progress-bar {
             min-height: 300px;
             box-shadow: 3px 3px 3px silver;
             box-shadow: 0px 1px 6px 5px silver;
-            margin: 28px;
             text-align: center;
+            margin-bottom:28px;
         }
 
         .gdziebylem {
@@ -359,6 +372,7 @@ progress::-webkit-progress-bar {
         body,
         a {
             color: wheat;
+
         }
 
         aside {
@@ -420,6 +434,7 @@ progress::-webkit-progress-bar {
 
         a {
             color: #00ff82 !important;
+            font-weight: bold;
         }
 
 
