@@ -10,6 +10,7 @@ function zmien_fotep(ktora) {
     zdjecia[aktywna].style.display = "none";
     aktywna = ktora;
     zdjecia[ktora].style.display = "block";
+    zdjecia[ktora].classList.remove("animowanie_cert");
 }
 
 const zmiana = setInterval(zmien_fote,3000);

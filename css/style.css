@@ -74,9 +74,7 @@ body {
         left:0 !important;
         width: 100% !important;
     }
-    #certfikaty img {
-        width: 95% !important;
-    }
+
     #glowna_tresc{
         width: 100%;
         left:1% !important;
@@ -199,13 +197,16 @@ a {
 #certfikaty {
     position: relative;
     margin-top: 28px;
+    height: 600px;
+    border: 3px solid red;
+    width: 98%;
+     border-radius: 12px;
 }
 
 #certfikaty img {
-    width: 80%;
+    width: 100%;
     height: 600px;
     display: none;
-    border:8px groove rgb(252, 165, 3);
     border-radius: 12px;
 }
 
@@ -216,9 +217,11 @@ a {
 @keyframes cert {
     0%,100% {
         opacity: 0.1;
+        
     }
     50%{
         opacity: 1;
+        
     }
 }
 
@@ -241,7 +244,10 @@ a {
     cursor: pointer;
     margin:3px;
 }
-
+#certifikaty_male img:hover {
+    opacity:0.5;
+    scale:1.5;
+}
 a {
     cursor: pointer;
 }
@@ -366,7 +372,6 @@ progress::-webkit-progress-bar {
         }
 
         #certfikaty img {
-            border: 3px solid red;
             width: auto;
         }
 
