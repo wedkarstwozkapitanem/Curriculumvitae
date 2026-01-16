@@ -49,18 +49,13 @@ body {
     }
 }
 
-@media screen and (max-width: 914px) {
-    .dane {
-        font-size:12px !important;
-    }
-}
 
 @media screen and (max-width: 888px) {
     .menu_boczne {
         border: none !important;
     }
     .selfie img {
-        width: 96%;
+        width: 400px;
         height: 400px;
     } 
     aside {
@@ -71,6 +66,10 @@ body {
     .dane ul {
         font-size: 38px;
         text-align: center !important;
+    }
+    svg {
+        width: 2rem ;
+        height: 2rem ;
     }
     .dane > ul div {
         display: inline;
@@ -102,6 +101,17 @@ body {
         padding:0;
     }
 }
+
+@media screen and (max-width: 914px) {
+    .dane {
+        font-size:12px !important;
+    }
+    svg {
+        width: 12px !important;
+        height: 12px !important;
+    }
+}
+
 
 aside {
     width: 28%;
@@ -198,6 +208,8 @@ a {
     text-shadow: 0 0 3px black;
     
 }
+
+
 
 #glowna_tresc {
     top:28px;
@@ -343,6 +355,7 @@ progress::-webkit-progress-bar {
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
+            justify-content: space-around;
         }
 
         .gdziebylem img {
